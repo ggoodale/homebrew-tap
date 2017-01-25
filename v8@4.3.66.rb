@@ -3,7 +3,7 @@ class V8AT4366 < Formula
   desc "Google's JavaScript engine"
   homepage "https://github.com/v8/v8/wiki"
   url "https://github.com/v8/v8-git-mirror/archive/4.3.66.tar.gz"
-  sha256 "b70bddadfa324f118a73047b7db88c1845ad07231cba02368f9c9fc990a9ea8e"
+  sha256 "e9b96faa48d27c5a7f5694fc559cbdec67c954d44a8fbe3b6dd13cea4ca04553"
 
   option "with-readline", "Use readline instead of libedit"
 
