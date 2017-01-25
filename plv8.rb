@@ -13,7 +13,7 @@ class Plv8 < Formula
   depends_on :postgresql
  
   def install
-    ENV.prepend 'PATH', Formula.factory('postgresql').bin, ':'
+    ENV.prepend 'PATH', Formulary.formula('postgresql').bin, ':'
     system 'pg_config' # ensure postgres installed
     system "make"
     system "make install"
