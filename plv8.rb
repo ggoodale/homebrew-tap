@@ -20,7 +20,7 @@ class Plv8 < Formula
   end
  
   def test
-    ENV.prepend 'PATH', Formula.factory('postgresql').bin, ':'
+    ENV.prepend 'PATH', Formulary.formula('postgresql').bin, ':'
     system "make installcheck"
   end
 end
