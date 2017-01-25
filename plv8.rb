@@ -5,7 +5,7 @@ class Plv8 < Formula
   homepage 'https://github.com/plv8/plv8'
   version '1.5.5'
   url 'https://github.com/plv8/plv8/archive/v1.5.5.tar.gz'
-  sha256 '19e97ccd14343401701acacf8cfa4df457ed24de'
+  sha256 'e043e737dd0854c88a48f59f7e8c822dea335c47e00c726c1537873da5259977'
  
   head 'https://github.com/plv8/plv8', :using => :git
  
