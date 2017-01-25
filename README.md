@@ -10,6 +10,7 @@ Tap into the repository using the tap command:
 
 ## Available Formulae  
 * [**plv8**](https://github.com/plv8/plv8) - V8 Engine Javascript Procedural Language add-on for PostgreSQL
+* [**v8**](https://github.com/v8/v8) - V8 Javascript engine (v4.3.66)
 
 ## Issues  
 Something does not work or is out of date? Create an [issue](https://github.com/ggoodale/homebrew-tap/issues) or drop me an [email](https://github.com/ggoodale).
