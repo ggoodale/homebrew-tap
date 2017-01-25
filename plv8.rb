@@ -9,7 +9,7 @@ class Plv8 < Formula
  
   head 'https://github.com/plv8/plv8', :using => :git
  
-  depends_on 'ggoodale/tap/v8@4.3.66' 
+  depends_on 'ggoodale/tap/v8@4.4.63.31' 
   depends_on :postgresql
  
   def install
