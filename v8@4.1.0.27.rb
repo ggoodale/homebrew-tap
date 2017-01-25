@@ -23,18 +23,17 @@ class V8AT41027 < Formula
   # Update from "DEPS" file in tarball.
   resource "gyp" do
     url "https://chromium.googlesource.com/external/gyp.git",
-        :revision => "fe00999dfaee449d3465a9316778434884da4fa7"
-    version "2010"
+        :revision => "0bb67471bca068996e15b56738fa4824dfa19de0"
   end
 
   resource "gmock" do
-    url "http://googlemock.googlecode.com/svn/trunk", :revision => 501
-    version "501"
+    url "https://chromium.googlesource.com/external/googlemock.git",
+        :revision => "29763965ab52f24565299976b936d1265cb6a271"
   end
 
   resource "gtest" do
-    url "http://googletest.googlecode.com/svn/trunk", :revision => 700
-    version "700"
+    url "https://chromium.googlesource.com/external/googletest.git",
+        :revision => "be1868139ffe0ccd0e8e3b37292b84c821d9c8ad"
   end
 
   def install
